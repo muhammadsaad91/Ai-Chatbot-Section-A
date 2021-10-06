@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h1>
+        class 2
+    </h1>
+ <br>
+    num1: <input type="number" id="num111"> 
+</br>
+    <br>
+ num2: <input type="number" id="num222">
+</br>
+<br>  <button onclick="myfunction()"> calculate sum  </button></br>
+ <h1 id="result"></h1>
+
+<script>
+function myfunction() {
+          let num1 = document.getElementById("num111").value
+          let num2 = document.getElementById("num222").value
+          let result = Number(num1) + Number(num2);
+          document.getElementById("result").innerText = result 
+        }
+
+</script>
+</body>
+</html>
