@@ -1,54 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-
 <body>
+    
+    <h1>
+        class 2
+    </h1>
+ <br>
+    num1: <input type="number" id="num111"> 
+</br>
+    <br>
+ num2: <input type="number" id="num222">
+</br>
+<br>  <button onclick="myfunction()"> calculate sum  </button></br>
+ <h1 id="result"></h1>
 
-    <h1>Hello world</h1>
+<script>
+function myfunction() {
+          let num1 = document.getElementById("num111").value
+          let num2 = document.getElementById("num222").value
+          let result = Number(num1) + Number(num2);
+          document.getElementById("result").innerText = result 
+        }
 
-    <script>
-        // alert("hello world")
-        // console.log("console Hello world")
-
-        // let fanSpeed = 1;
-        // console.log("fanSpeed: ", fanSpeed)
-
-        // fanSpeed = 2;
-        // console.log("fanSpeed: ", fanSpeed)
-
-        // fanSpeed = 5;
-        // console.log("fanSpeed: ", fanSpeed)
-
-        // let name = "Malik";
-        // console.log("name: ", name);
-
-        // name = "Inzamam"
-        // console.log("name: ", name);
-
-        // name = 786;
-        // console.log("name: ", name);
-
-        // let isTrue = false;
-        // console.log("isTrue: ", isTrue)
-
-        let names = ["Malik", "John", "Sam", "Mike", 2, 3, 4, true];
-        console.log("names: ", names);
-        
-        console.log("names: ", names[0]);
-        console.log("names: ", names[1]);
-        console.log("names: ", names[8]); // undefined
-        console.log("names: ", names.length);
-
-
-
-    </script>
+</script>
 </body>
-
 </html>
-s
