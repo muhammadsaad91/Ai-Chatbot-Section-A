@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        // console.log("a: ", a);
+        // var a = 5;
+        // console.log("a: ", a);
+
+ 
+
+        // let temp = 20;
+        // let saad = ((temp < 19 )? "do" : "do not") + "saad Jacket";
+        // console.log ("saad: ",saad);
+        // if (temp < 25) {
+        //     saad = True;
+        // } else {
+
+        //     saad = False;
+
+        // }
+
+        // let arr2d1=[
+        // [1,2,3],
+        // [4,5,6],
+        // [7,8,9]
+        // ]
+
+        // let arr2d2=[
+        // [1,2,3],
+        // [4,5,6],
+        // [7,8,9]
+        // ]
+        // let arr2d3=[[],[],[]]
+
+        // for (var a=0;a<arr2d1.length;a++){
+              
+        //     for (var b=0;b<arr2d1[a].length;b++){
+        //        arr2d3[a][b]=arr2d1[a][b]+arr2d2[a][b]
+        //     }
+        // }
+        // console.log("add of 2d array",arr2d3)
+
+        // for (var c=0;c<arr2d3.length;c++){
+        //       console.log("inside loop",arr2d3[c])
+        //       for (var d=0;d<arr2d3[c].length;d++){
+        //         console.log("inside nested",arr2d3[c][d])
+        //       }
+        //   }
+
+        let num1=[2,3,4,7,2,1,23,65,78,45,66]
+        let num2=[]
+        
+        num2=num1.map((eachitem,index)=>{
+
+            if(eachitem %2 ==0){
+                return 0;
+            }
+            else{
+                return eachitem;
+            }
+        } )
+        console.log(num2)
+    </script>
+</body>
+
+</html>
